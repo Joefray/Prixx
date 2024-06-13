@@ -1,90 +1,86 @@
 import { FunctionComponent } from "react";
 import PricingCard1 from "../components/PricingCard1";
 import PricingCard from "../components/PricingCard";
-import styles from "./PricingTable.module.css";
+import "./PricingTable.css";
 
 const PricingTable: FunctionComponent = () => {
   return (
-    <div className={styles.pricingTable2}>
+    <div className="pricing-table-2">
       <PricingCard1 />
-      <div className={styles.shadowParent}>
-        <div className={styles.shadow} />
+      <div className="shadow-parent">
+        <div className="shadow" />
         <PricingCard />
       </div>
-      <div className={styles.shadow1} />
-      <div className={styles.shadowGroup}>
-        <div className={styles.shadow2} />
-        <div className={styles.pricingCard3}>
-          <div className={styles.pricingCard3Inner}>
-            <div className={styles.frameParent}>
-              <div className={styles.iconParent}>
-                <img className={styles.icon} alt="" src="/icon.svg" />
-                <b className={styles.title}>Monthly Pass</b>
+      <div className="shadow1" />
+      <div className="shadow-group">
+        <div className="shadow2" />
+        <div className="pricing-card-3">
+          <div className="pricing-card-3-inner">
+            <div className="frame-parent">
+              <div className="icon-parent">
+                <img className="icon" alt="" src="/icon.svg" />
+                <b className="title">Monthly Pass</b>
               </div>
-              <div className={styles.whatYoullGetParent}>
-                <a className={styles.whatYoullGet}>What You’ll Get</a>
-                <div className={styles.benefits}>
-                  <div className={styles.bxsCheckCircle21Parent}>
+              <div className="what-youll-get-parent">
+                <a className="what-youll-get">What You’ll Get</a>
+                <div className="benefits">
+                  <div className="bxs-check-circle-2-1-parent">
                     <img
-                      className={styles.bxsCheckCircle21}
+                      className="bxs-check-circle-2-1"
                       alt=""
                       src="/bxscheckcircle-2-1.svg"
                     />
-                    <p className={styles.hoursUsageOf}>
+                    <p className="hours-usage-of">
                       8 hours usage of our coworking space
                     </p>
                   </div>
-                  <div className={styles.bxsCheckCircle21Group}>
+                  <div className="bxs-check-circle-2-1-group">
                     <img
-                      className={styles.bxsCheckCircle211}
+                      className="bxs-check-circle-2-11"
                       alt=""
                       src="/bxscheckcircle-2-1.svg"
                     />
-                    <div className={styles.accessToAll}>
-                      Access to All our rooms
-                    </div>
+                    <div className="access-to-all">Access to All our rooms</div>
                   </div>
-                  <div className={styles.benefitItems}>
-                    <div className={styles.bxsCheckCircle21Container}>
+                  <div className="benefit-items">
+                    <div className="bxs-check-circle-2-1-container">
                       <img
-                        className={styles.bxsCheckCircle212}
+                        className="bxs-check-circle-2-12"
                         alt=""
                         src="/bxscheckcircle-2-1.svg"
                       />
-                      <div className={styles.dedicatedDesk}>Dedicated Desk</div>
+                      <div className="dedicated-desk">Dedicated Desk</div>
                     </div>
-                    <div className={styles.frameDiv}>
+                    <div className="frame-div">
                       <img
-                        className={styles.bxsCheckCircle213}
+                        className="bxs-check-circle-2-13"
                         alt=""
                         src="/bxscheckcircle-2-1.svg"
                       />
-                      <div className={styles.freeBusinessAddress}>
+                      <div className="free-business-address">
                         Free Business Address
                       </div>
                     </div>
-                    <div className={styles.bxsCheckCircle21Parent1}>
+                    <div className="bxs-check-circle-2-1-parent1">
                       <img
-                        className={styles.bxsCheckCircle214}
+                        className="bxs-check-circle-2-14"
                         alt=""
                         src="/bxscheckcircle-2-1.svg"
                       />
-                      <div className={styles.freeLunch1x}>
-                        Free Lunch 1x a day
-                      </div>
+                      <div className="free-lunch-1x">Free Lunch 1x a day</div>
                     </div>
                   </div>
-                  <div className={styles.divider} />
+                  <div className="divider" />
                 </div>
               </div>
-              <div className={styles.pricing}>
+              <div className="pricing">
                 <b>$380</b>
-                <span className={styles.month}>/month</span>
+                <span className="month">/month</span>
               </div>
             </div>
           </div>
-          <div className={styles.primaryButton}>
-            <b className={styles.buttonLabel}>Choose</b>
+          <div className="primary-button">
+            <b className="button-label">Choose</b>
           </div>
         </div>
       </div>
